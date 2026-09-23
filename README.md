@@ -1,10 +1,10 @@
-# Excitability Types and Bursting with a Two-Block Spiking Primitive
+# Types of Bursting with a Two-Block Spiking Primitive
 
 ## About this repository
 
-This repository contains all code involved in **Excitability Types and Bursting with a Two-Block Spiking Primitive**.
+This repository contains all code involved in **Types of Bursting with a Two-Block Spiking Primitive**.
 
-The paper studies a minimal excitable system: a static sigmoid of gain `k` closed in positive feedback around a linear frequency selector `H(s)` that blocks the constant component of its input. Two selectors are treated, a first-order high-pass and a second-order resonant band-pass. The sigmoid decides whether the cell fires and where the threshold sits, and the selector decides which bifurcation is available there, hence the excitability type and the burst class.
+The paper studies a minimal excitable system: a static nonlinearity of gain `k` closed in positive feedback around a linear frequency selector `H(s)` that blocks the constant component of its input. Two selectors are treated, a first-order high-pass with a saturation, and a second-order resonant band-pass with a `tanh`. The nonlinearity decides whether the cell fires and where the threshold sits. The selector decides whether rest and firing can coexist, hence which burst class is available.
 
 ## Getting started
 
